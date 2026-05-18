@@ -1,8 +1,0 @@
-resources:
-  - ../../templates  # 指向 chart 模板目录（Deployment/Service/Ingress）
-
-patches:
-  - path: sidecar-patch.yaml
-    target:
-      kind: Deployment
-      name: html5demos
